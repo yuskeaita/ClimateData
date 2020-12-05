@@ -1,3 +1,5 @@
-# Extract data from csv
+/* Extract data which shows where you live from csv */
 
-SELECT DISTINCT city_name from city
+SELECT *
+FROM city_list
+WHERE "country" = 'Japan'
